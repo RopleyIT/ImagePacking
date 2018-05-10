@@ -10,6 +10,7 @@ namespace PackImages
 {
     class Program
     {
+        // This is a comment
         static void Main(string[] args)
         {
             try
