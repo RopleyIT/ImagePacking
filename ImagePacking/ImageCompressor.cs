@@ -45,7 +45,7 @@ namespace ImagePacking
         }
 
         /// <summary>
-        /// Validate a filee to see if it is an image file. Only
+        /// Validate a file to see if it is an image file. Only
         /// verifies the filename extension at present
         /// </summary>
         /// <param name="path">Path to image file</param>
