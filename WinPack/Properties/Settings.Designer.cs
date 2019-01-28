@@ -12,7 +12,7 @@ namespace WinPack.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -73,7 +73,7 @@ namespace WinPack.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("16777216")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1024")]
         public int MaxSize {
             get {
                 return ((int)(this["MaxSize"]));
@@ -109,7 +109,7 @@ namespace WinPack.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("32767")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2048")]
         public int MaxWidth {
             get {
                 return ((int)(this["MaxWidth"]));
@@ -121,7 +121,7 @@ namespace WinPack.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("32767")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2048")]
         public int MaxHeight {
             get {
                 return ((int)(this["MaxHeight"]));

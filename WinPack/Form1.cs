@@ -100,6 +100,15 @@ namespace WinPack
 
         private async void btnShrink_Click(object sender, EventArgs e)
         {
+            if(Path.GetFullPath(lblDestDir.Text) == Path.GetFullPath(lblSourceDir.Text))
+            {
+                if (MessageBox.Show(this, "Origin and destination folder are the same. Click 'OK'"
+                    + " to put the shrunken files into  'Shrunk' subfolder of origin"
+                    + " folder, or 'Cancel' to choose another folder", "Folders must be different",
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+                    lblDestDir.Text = Path.Combine(lblDestDir.Text, "Shrunk");
+            }
+
             if (!Directory.Exists(lblDestDir.Text))
                 try
                 {
@@ -176,7 +185,7 @@ namespace WinPack
                 "Shrinks folders of images so that the images fit\r\n" +
                 "within a maximum width, height, and file size\r\n" +
                 "© Copyright Ropley Information Technology Ltd.\r\n" +
-                "Version 16.1.15", "About PackImages",
+                "Version 19.1.28", "About PackImages",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

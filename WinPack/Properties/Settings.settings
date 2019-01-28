@@ -15,7 +15,7 @@
       <Value Profile="(Default)">100</Value>
     </Setting>
     <Setting Name="MaxSize" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">16777216</Value>
+      <Value Profile="(Default)">1024</Value>
     </Setting>
     <Setting Name="MinWidth" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -24,10 +24,10 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="MaxWidth" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">32767</Value>
+      <Value Profile="(Default)">2048</Value>
     </Setting>
     <Setting Name="MaxHeight" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">32767</Value>
+      <Value Profile="(Default)">2048</Value>
     </Setting>
   </Settings>
 </SettingsFile>
