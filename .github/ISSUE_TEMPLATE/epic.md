@@ -1,6 +1,6 @@
 ---
 name: Epic
-description: A strategic area of work delivering in a specific area of business value.
+about: A strategic area of work delivering in a specific area of business value.
 title: "[EPIC] <title>"
 labels: ''
 assignees: ''
